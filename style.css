@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+button{
+    padding: 10px 16px;
+    background-color: cyan;
+    border: 1px solid gray;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    width: 15rem;
+}
+
+.start-game:disabled{
+    /* background-color: lightgray; */
+    cursor: not-allowed;
+}
